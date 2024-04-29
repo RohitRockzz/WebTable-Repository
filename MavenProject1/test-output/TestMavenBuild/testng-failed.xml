@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestMavenBuild]" guice-stage="DEVELOPMENT">
+  <parameter name="passWord" value="secret_sauce"/>
+  <parameter name="userName" value="standard_user"/>
+  <test thread-count="5" name="MavenProject1(failed)">
+    <classes>
+      <class name="TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs -->
+    </classes>
+  </test> <!-- MavenProject1(failed) -->
+</suite> <!-- Failed suite [TestMavenBuild] -->

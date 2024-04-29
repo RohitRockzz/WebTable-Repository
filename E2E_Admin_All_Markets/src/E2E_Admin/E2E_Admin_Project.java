@@ -5,7 +5,7 @@ public class E2E_Admin_Project {
 	public static void main(String[] args) throws InterruptedException {
 		
 		//Browser Instances
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\durgasi.jagadish\\Desktop\\Selenium Data\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		Driver_Setup setup = new Driver_Setup();
 		setup.browserInstance();
 		Thread.sleep(5000);
