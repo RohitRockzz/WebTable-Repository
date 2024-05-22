@@ -6,6 +6,7 @@ import org.testng.annotations.*;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
@@ -17,16 +18,24 @@ public class Maven_Project_SauceLabs {
   @Test(dataProvider = "credentials")
   public void test1(String username , String password) {
 	  
+	  
+	  Logger log = Logger.getLogger(Maven_Project_SauceLabs.class);
+	  log.info("**************info****************");
+	  
 	  driver.get("https://www.saucedemo.com/");
 	  driver.manage().window().maximize();
 	  
+	  log.warn("**************warn****************");
 	  driver.findElement(By.id("user-name")).sendKeys(username);
 	  driver.findElement(By.id("password")).sendKeys(password);
 	  
+	  
+	  log.error("**************Error****************");
 	  driver.findElement(By.id("login-button")).click();
 	  String title = driver.getTitle();
 	  
 	  System.out.println(title);
+	  log.fatal("**************Fatal: "+title+"****************");
   }
 	
 

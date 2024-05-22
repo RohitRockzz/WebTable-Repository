@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-26T14:00:08 IST" name="Test Suite Maven" finished-at="2024-04-26T14:00:18 IST" duration-ms="9668">
+  <suite started-at="2024-04-30T10:08:31 IST" name="Default suite" finished-at="2024-04-30T10:08:42 IST" duration-ms="11065">
     <groups>
     </groups>
-    <test started-at="2024-04-26T14:00:08 IST" name="Parallel Testing" finished-at="2024-04-26T14:00:18 IST" duration-ms="9668">
+    <test started-at="2024-04-30T10:08:31 IST" name="Default test" finished-at="2024-04-30T10:08:42 IST" duration-ms="11065">
       <class name="TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs">
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs@5fb65013]" started-at="2024-04-26T14:00:08 IST" name="test1" data-provider="credentials" finished-at="2024-04-26T14:00:11 IST" duration-ms="2492" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs@f202d6d]" started-at="2024-04-30T10:08:31 IST" name="test1" data-provider="credentials" finished-at="2024-04-30T10:08:36 IST" duration-ms="4504" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs@5fb65013]" started-at="2024-04-26T14:00:11 IST" name="test1" data-provider="credentials" finished-at="2024-04-26T14:00:12 IST" duration-ms="836" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs@f202d6d]" started-at="2024-04-30T10:08:36 IST" name="test1" data-provider="credentials" finished-at="2024-04-30T10:08:36 IST" duration-ms="523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs@5fb65013]" started-at="2024-04-26T14:00:12 IST" name="test1" data-provider="credentials" finished-at="2024-04-26T14:00:12 IST" duration-ms="629" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs@f202d6d]" started-at="2024-04-30T10:08:36 IST" name="test1" data-provider="credentials" finished-at="2024-04-30T10:08:37 IST" duration-ms="431" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs@5fb65013]" started-at="2024-04-26T14:00:12 IST" name="test1" data-provider="credentials" finished-at="2024-04-26T14:00:18 IST" duration-ms="5623" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs@f202d6d]" started-at="2024-04-30T10:08:37 IST" name="test1" data-provider="credentials" finished-at="2024-04-30T10:08:42 IST" duration-ms="5528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,6 +72,6 @@
           </reporter-output>
         </test-method> <!-- test1 -->
       </class> <!-- TestSwagLabs_MavenProject.MavenProject1.Maven_Project_SauceLabs -->
-    </test> <!-- Parallel Testing -->
-  </suite> <!-- Test Suite Maven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

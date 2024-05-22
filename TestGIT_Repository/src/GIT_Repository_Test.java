@@ -11,11 +11,8 @@ public class GIT_Repository_Test {
 	public void test() {
 		
 		
-		System.setProperty("webdriver.chrome.driver","");
-		driver = new ChromeDriver();
-		driver.get("https://github.com");
-		driver.close();
-		driver.quit();
+		
+		
 	}
 	
 	
